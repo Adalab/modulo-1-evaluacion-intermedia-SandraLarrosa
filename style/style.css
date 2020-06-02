@@ -24,13 +24,6 @@ a:link, a:visited {
 
 /* MENU NAV*/
 
-.nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background: white;
-} 
-
 .wrapper {
     width: 100%;
     max-width: 1200px;
