@@ -23,11 +23,13 @@ a:link, a:visited {
 }
 
 /* MENU NAV*/
-/* .nav {
+
+.nav {
     position: fixed;
     top: 0;
     width: 100%;
-} */
+    background: white;
+} 
 
 .wrapper {
     width: 100%;
@@ -55,7 +57,9 @@ a:link, a:visited {
 
 .nav-menu li{
     display: inline-block;
-    padding-left: 10px;
+}
+.nav-menu li:first-child{
+    padding-right: 20px;
 }
 
 
