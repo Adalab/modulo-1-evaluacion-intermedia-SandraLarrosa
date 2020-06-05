@@ -10,18 +10,10 @@
     box-sizing: border-box;
     color: inherit;
     list-style-type: none;
-    margin: auto
-}
-body {
+    margin: auto;
+    text-decoration: none;
     font-family: var(--primary-font);
 }
-
-a:link, a:visited {
-    text-decoration: none;
-    
-}
-
-/* MENU NAV*/
 
 .nav {
     position: fixed;
@@ -29,6 +21,7 @@ a:link, a:visited {
     width: 100%;
     background-color: var(--light-color);
 }
+
 .wrapper {
     width: 100%;
     max-width: 1200px;
@@ -61,8 +54,6 @@ a:link, a:visited {
     margin-right: 20px;
 } 
 
-/* MAIN */
-
 .main {
     background-color: var(--background-color);
     height: 100vh;
@@ -85,9 +76,7 @@ a:link, a:visited {
 
 
 @media all and (min-width:768px){
-    /* MENU NAV*/
     .nav-content {
-        display: flex;
         flex-direction: row;
     }
 
@@ -100,7 +89,6 @@ a:link, a:visited {
         margin-top: auto;
     }
 
-    /* MAIN */
     .main-title{
         font-size: 40px;
     }
