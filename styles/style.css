@@ -79,6 +79,7 @@ a:link, a:visited {
 .main-title span{
     display: block;
     text-align: center;
+    text-transform: capitalize;
 
 }
 
