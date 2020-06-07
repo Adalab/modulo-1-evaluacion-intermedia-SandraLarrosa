@@ -17,9 +17,10 @@
 
 .nav {
     position: fixed;
-    top: 0px;
+    top: 0;
     width: 100%;
     background-color: var(--light-color);
+    z-index: 1;
 }
 
 .wrapper {
@@ -60,6 +61,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
+    top: 90px;
 }
 
 .main-title{
